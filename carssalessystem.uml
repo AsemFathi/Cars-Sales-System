@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.mycompany.carssalessystem</OriginalElement>
+  <nodes>
+    <node x="664.0" y="296.0">com.mycompany.carssalessystem.Admin</node>
+    <node x="1369.0" y="1200.0">com.mycompany.carssalessystem.StartMenu</node>
+    <node x="375.0" y="1200.0">com.mycompany.carssalessystem.UserLogin</node>
+    <node x="0.0" y="1696.0">com.mycompany.carssalessystem.Global</node>
+    <node x="336.0" y="0.0">com.mycompany.carssalessystem.AddCar</node>
+    <node x="1243.0" y="329.0">com.mycompany.carssalessystem.user</node>
+    <node x="1041.0" y="1200.0">com.mycompany.carssalessystem.AdminMenu</node>
+    <node x="0.0" y="1200.0">com.mycompany.carssalessystem.SignUp</node>
+    <node x="401.0" y="1696.0">com.mycompany.carssalessystem.connection</node>
+    <node x="204.0" y="1696.0">com.mycompany.carssalessystem.colorPair</node>
+    <node x="1006.5" y="126.0">com.mycompany.carssalessystem.UserOrAdmin</node>
+    <node x="1697.0" y="1200.0">com.mycompany.carssalessystem.car</node>
+    <node x="708.0" y="1200.0">com.mycompany.carssalessystem.AdminLogin</node>
+    <node x="895.5" y="0.0">com.mycompany.carssalessystem.person</node>
+    <node x="0.0" y="0.0">com.mycompany.carssalessystem.viewCars</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.mycompany.carssalessystem.Admin" target="com.mycompany.carssalessystem.UserOrAdmin">
+      <point x="0.0" y="-181.0" />
+      <point x="943.5" y="271.0" />
+      <point x="1099.5" y="271.0" />
+      <point x="-93.0" y="60.0" />
+    </edge>
+    <edge source="com.mycompany.carssalessystem.user" target="com.mycompany.carssalessystem.UserOrAdmin">
+      <point x="0.0" y="-148.0" />
+      <point x="1441.5" y="271.0" />
+      <point x="1285.5" y="271.0" />
+      <point x="93.0" y="60.0" />
+    </edge>
+    <edge source="com.mycompany.carssalessystem.UserOrAdmin" target="com.mycompany.carssalessystem.person">
+      <point x="0.0" y="-60.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="229.0" y="1069.0" />
+  <SelectedNodes>
+    <node>com.mycompany.carssalessystem.person</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
